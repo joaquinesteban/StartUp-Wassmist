@@ -1,0 +1,480 @@
+body {
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+
+header {
+  background: url(../../img/pagina-web-1\(2\).jpg), #019851;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+header .contenedor_logo_menu {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+header .contenedor_logo_menu .logo a {
+  display: block;
+}
+header .contenedor_logo_menu .logo a img {
+  vertical-align: top;
+  width: 300px;
+}
+header .contenedor_logo_menu .menu {
+  text-align: right;
+  line-height: 50px;
+  font-weight: 600;
+}
+header .contenedor_logo_menu .menu a {
+  color: #000000;
+  margin-left: 60px;
+  text-decoration: none;
+  font-size: 18px;
+}
+header .contenedor_logo_menu .menu a:hover {
+  color: #fff;
+  transition: 0.6s;
+}
+header .textos {
+  color: #fff;
+  text-align: center;
+  margin: 200px 0;
+}
+header .textos .primera_linea,
+header .textos .segunda_linea {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #000000;
+}
+header .textos .primera_linea {
+  font-size: 35px;
+  list-style: 35px;
+  margin-bottom: 30px;
+}
+header .textos .segunda_linea {
+  font-size: 25px;
+  list-style: 25px;
+  margin-bottom: 60px;
+}
+header .textos .contenedor-btns {
+  margin-bottom: 150px;
+}
+header .textos .contenedor-btns a {
+  border-radius: 4px;
+  border: 2px solid #0000006b;
+  color: #000000;
+  text-decoration: none;
+  padding: 12px 0;
+  font-weight: 600;
+  width: 235px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+header .textos .contenedor-btns a:hover {
+  text-decoration: none;
+  background: #fff;
+  color: #000000;
+}
+
+.main .caracteristicas {
+  padding-bottom: 70px;
+}
+.main .caracteristicas .container .titulo {
+  text-align: center;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 70px;
+}
+.main .caracteristicas .container .caracteristica {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.main .caracteristicas .container .caracteristica .icono {
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+.main .caracteristicas .container .primera_linea {
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.main .caracteristicas .container .parrafo {
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+.main .fotos {
+  margin-bottom: 80px;
+}
+.main .fotos .foto {
+  margin-bottom: 20px;
+}
+.main .fotos .foto .thumb img {
+  border-radius: 10px;
+  width: 100%;
+  vertical-align: top;
+}
+.main .fotos .foto .titulo {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+}
+.main .fotos .foto .titulo.azul {
+  color: #4facd3;
+}
+.main .fotos .foto .titulo.naranja {
+  color: #ddb146;
+  text-align: right;
+}
+.main .fotos .foto .parrafo {
+  line-height: 28px;
+  text-align: left;
+}
+.main .fotos .foto .parrafo2 {
+  text-align: right;
+}
+.main .clientes {
+  background: #2d353e;
+  padding: 40px 0;
+}
+.main .clientes .titulo {
+  text-align: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.main .clientes .clientes {
+  text-align: center;
+}
+.main .clientes .clientes a {
+  display: block;
+}
+.main .precios {
+  background: url(../../img/precios-bg.jpg), #727171;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding: 70px 0;
+}
+.main .precios .titulo {
+  text-align: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.main .precios .plan {
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  padding: 50px 0;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+}
+.main .precios .plan.verde .nombre {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #92c87a;
+}
+.main .precios .plan.verde .precio {
+  font-weight: 300;
+  font-size: 48px;
+  color: #92c87a;
+}
+.main .precios .plan.verde .caracteristica {
+  list-style: none;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+.main .precios .plan.verde .caracteristica li {
+  font-size: 18px;
+  padding: 15px 0;
+  border-bottom: 1px solid #92c87a;
+}
+.main .precios .plan.verde .btn {
+  width: 70%;
+  padding: 15px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100px;
+  color: #86b773;
+  border: 2px solid #86b773;
+}
+.main .precios .plan.verde .btn:hover {
+  background: #86b773;
+  color: #fff;
+}
+.main .precios .plan.active {
+  background: #003ebb;
+}
+.main .precios .plan.active .nombre {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.main .precios .plan.active .precio {
+  font-weight: 300;
+  font-size: 48px;
+  color: #fff;
+}
+.main .precios .plan.active .caracteristica {
+  list-style: none;
+  padding: 0 20px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+.main .precios .plan.active .caracteristica li {
+  font-size: 18px;
+  padding: 15px 0;
+  border-bottom: 1px solid #dedede;
+}
+.main .precios .plan.active .btn {
+  width: 70%;
+  padding: 15px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.main .precios .plan.active .btn:hover {
+  background: #fff;
+  color: #000;
+}
+.main .precios .plan.naranja .nombre {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #ff8942;
+}
+.main .precios .plan.naranja .precio {
+  font-weight: 300;
+  font-size: 48px;
+  color: #ff8942;
+}
+.main .precios .plan.naranja .caracteristica {
+  list-style: none;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+.main .precios .plan.naranja .caracteristica li {
+  font-size: 18px;
+  padding: 15px 0;
+  border-bottom: 1px solid #ff8942;
+}
+.main .precios .plan.naranja .btn {
+  width: 70%;
+  padding: 15px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100px;
+  color: #ff8942;
+  border: 2px solid #ff8942;
+}
+.main .precios .plan.naranja .btn:hover {
+  background: #ff8942;
+  color: #fff;
+}
+.main .reviews {
+  padding: 70px;
+}
+.main .reviews .titulo {
+  text-align: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #4dacd3;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.main .reviews .cliente1 {
+  margin-bottom: 40px;
+}
+.main .reviews .cliente1 .foto {
+  width: 75%;
+  text-align: right;
+}
+.main .reviews .cliente1 .foto img {
+  max-width: 100px;
+  width: 100%;
+  vertical-align: top;
+  border-radius: 100%;
+}
+.main .reviews .cliente2 {
+  margin-bottom: 20px;
+}
+.main .reviews .cliente2 .foto {
+  width: 75%;
+  text-align: left;
+}
+.main .reviews .cliente2 .foto img {
+  max-width: 100px;
+  width: 100%;
+  vertical-align: top;
+  border-radius: 100%;
+}
+.main .reviews .review-derecha .texto {
+  text-align: right;
+}
+.main .reviews .review-derecha .nombre {
+  text-align: right;
+}
+.main .reviews .texto {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.main .reviews .nombre {
+  color: #ddb146;
+  font-size: 14px;
+}
+
+footer .direccion {
+  background: #3c4045;
+  padding: 30px 10px;
+  color: #fff;
+}
+footer .direccion .titulo {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+footer .direccion .calle, footer .direccion .telefono, footer .direccion .correo {
+  margin-bottom: 10px;
+}
+footer .direccion .logo img {
+  margin-top: 70px;
+  width: 300px;
+}
+footer .social {
+  text-align: center;
+  padding: 20px 0;
+}
+footer .social a {
+  padding: 10px;
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  font-size: 22px;
+  color: #fff;
+  background: #000;
+  border-radius: 100px;
+}
+footer .social a:hover {
+  text-decoration: none;
+}
+footer .social a.facebook {
+  background: #3b5998;
+}
+footer .social a.twiter {
+  background: #55acee;
+}
+footer .social a.github {
+  background: #3c4045;
+}
+
+@media screen and (max-width: 1400px) {
+  header .contenedor_logo_menu .logo img {
+    width: 150px;
+  }
+
+  .main .titulo {
+    font-size: 32px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .contenedor_logo_menu {
+    text-align: left;
+    padding: 20px 0;
+  }
+  header .menu {
+    text-align: center;
+  }
+  header .menu a {
+    margin: 0 20px;
+  }
+  header .textos .contenedor-btns a {
+    margin: 20px 0;
+  }
+
+  .main .fotos .thumb {
+    width: 200px;
+    margin: auto;
+  }
+  .main .fotos .titulo {
+    text-align: center;
+  }
+  .main .fotos .titulo.derecha {
+    text-align: center;
+  }
+  .main .fotos .parrafo {
+    text-align: center;
+    font-size: 16px;
+  }
+  .main .clientes .cl {
+    padding: 10px 0;
+  }
+  .main .precios .precio {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  header .contenedor_logo_menu {
+    text-align: center;
+  }
+  header .menu {
+    text-align: center;
+  }
+  header .menu a {
+    margin: 10px 35px;
+    padding: 0;
+  }
+
+  .main .caracteristicas .titulo {
+    text-align: center;
+  }
+  .main .caracteristicas .caracteristica {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 16px;
+  }
+  .main .fotos .foto .titulo {
+    text-align: center;
+  }
+  .main .fotos .foto .titulo.derecha {
+    text-align: center;
+  }
+  .main .fotos .foto .parrafo, .main .fotos .foto .parrafo2 {
+    text-align: center;
+  }
+  .main .reviews .cliente1 {
+    padding: 0;
+    margin-left: 32px;
+    margin-bottom: 40px;
+  }
+  .main .reviews .review .texto {
+    font-size: 16px;
+  }
+  .main .reviews .review .nombre {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

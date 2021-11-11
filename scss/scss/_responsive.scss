@@ -1,0 +1,132 @@
+@media screen and (max-width:1400px){
+    header{
+        .contenedor_logo_menu{
+            .logo{
+               img{
+                   width: 150px;
+               }
+            }
+        }
+    }
+   .main{
+       .titulo{
+           font-size: 32px;
+           font-weight: 600;
+       }
+   }
+}
+@media screen and (max-width:992px){
+    header{
+        .contenedor_logo_menu{
+            text-align: left;
+            padding: 20px 0;
+        }
+        .menu {
+            text-align: center;
+            a{
+                margin: 0 20px;
+            }
+        }
+        .textos{
+            .contenedor-btns{
+                a{
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+    .main{
+        .fotos{
+           
+            .thumb{
+                width: 200px;
+                margin: auto;
+            }
+            .titulo{
+                text-align: center;
+                &.derecha{
+                    text-align: center;
+                }
+            }
+            .parrafo{
+                text-align: center;
+                font-size: 16px;
+            }
+            
+        }
+        .clientes{
+            
+            .cl{
+                padding: 10px 0;   
+            }
+        }
+        .precios{
+            .precio{
+                width: 500px;
+                margin: auto;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:576px){
+    header{
+        .contenedor_logo_menu{
+            text-align: center;
+        }
+        .menu {
+            text-align: center;
+            a{
+                margin: 10px 35px;
+                padding: 0;
+            }
+        }
+    }
+    .main{
+        .caracteristicas{
+            .titulo{
+                text-align: center;
+                
+            }
+            .caracteristica{
+                width: 500px;
+                margin: auto;
+                margin-bottom: 16px;
+                
+            }
+        }
+        .fotos{
+           .foto{
+            
+            .titulo{
+                text-align: center;
+                &.derecha{
+                    text-align: center;
+                }
+            }
+            
+            .parrafo,.parrafo2{
+                text-align: center;
+            }
+           }
+        }
+        .reviews{
+           
+            .cliente1{
+                padding: 0;
+                margin-left: 32px;
+                margin-bottom: 40px;
+                
+            }
+            .review{
+                .texto{
+                    font-size: 16px;  
+                }
+                .nombre{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
